@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/../../../os/common/portability/GCC",
+                "${workspaceFolder}/../../../os/common/startup/ARMCMx/compilers/GCC",
+                "${workspaceFolder}/../../../os/common/startup/ARMCMx/devices/SAMD10D14AM",
+                "${workspaceFolder}/../../../os/common/ext/ARM/CMSIS/Core/Include",
+                "${workspaceFolder}/../../../os/common/ext/SAMD/SAMD10D14AM",
+                "${workspaceFolder}/../../../os/hal/include",
+                "${workspaceFolder}/../../../os/hal/ports/common/ARMCMx",
+                "${workspaceFolder}/../../../os/hal/ports/SAMD10/SAMD10D14AM",
+                "${workspaceFolder}/../../../os/hal/ports/SAMD10/LLD/TIMERv1",
+                "${workspaceFolder}/../../../os/hal/boards/SAMD10_X_PLAINED",
+                "${workspaceFolder}/../../../os/hal/osal/rt-nil",
+                "${workspaceFolder}/../../../os/rt/include",
+                "${workspaceFolder}/../../../os/common/portability/GCC",
+                "${workspaceFolder}/../../../os/common/ports/ARM-common",
+                "${workspaceFolder}/../../../os/common/ports/ARMv6-M"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/cpp",
+            "cStandard": "gnu17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

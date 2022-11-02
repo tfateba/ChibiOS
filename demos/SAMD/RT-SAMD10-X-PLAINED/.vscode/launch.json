@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "samd10_debugger",
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/ch.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "device": "SAMD10D14AM",
+            "gdbPath": "/usr/bin/gdb-multiarch",
+            //"showDevDebugOutput": "raw",          // Show more verbose output during debug
+            "configFiles": [
+                "./debug/openocd.cfg"
+            ],
+            "servertype": "openocd"
+            //"svdFiles": [
+            //  Look how to see the MCU register.
+            //]
+        }
+    ]
+}
