@@ -1,5 +1,5 @@
 /*
-    ChibiOS - Copyright (C) 2006..2021 Giovanni Di Sirio
+    ChibiOS - Copyright (C) 2006..2022 Theodore Ateba
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -15,8 +15,8 @@
 */
 
 /**
- * @file    RP2040/hal_lld.h
- * @brief   RP2040 HAL subsystem low level driver header.
+ * @file    SAMD10D14AM/hal_lld.h
+ * @brief   SAMD10D14AM HAL subsystem low level driver header.
  *
  * @addtogroup HAL
  * @{
@@ -28,7 +28,7 @@
 /*
  * Registry definitions.
  */
-//#include "rp_registry.h"
+#include "samd10_registry.h"
 
 /* From Pico-SDK */
 //#include "hardware/clocks.h"
@@ -110,7 +110,7 @@ typedef struct {
 /* Various helpers.*/
 #include "nvic.h"
 #include "cache.h"
-//#include "rp_isr.h"
+#include "samd10_isr.h"
 //#include "rp_fifo.h"
 //#include "rp_dma.h"
 
