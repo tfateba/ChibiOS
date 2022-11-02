@@ -1,0 +1,2 @@
+*.cortex-debug.registers.state.json
+demos/STM32/*
